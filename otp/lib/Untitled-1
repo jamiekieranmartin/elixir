@@ -1,0 +1,8 @@
+iex(1)> Bank.open() 
+{:ok, #PID<0.138.0>} 
+iex(2)> Bank.deposit(400) 
+:ok 
+iex(3)> Bank.withdraw(100) 
+:ok 
+iex(4)> Bank.balance() 
+300
